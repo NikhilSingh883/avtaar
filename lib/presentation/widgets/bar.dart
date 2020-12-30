@@ -10,7 +10,7 @@ class Bar extends StatelessWidget {
     return FittedBox(
       child: Container(
         decoration: BoxDecoration(
-          color: done ? Colors.green : Colors.grey,
+          color: done ? Colors.green : Colors.grey[300],
           borderRadius: BorderRadius.circular(SizeConfig.widthMultiplier),
         ),
         width: SizeConfig.widthMultiplier * 23,
